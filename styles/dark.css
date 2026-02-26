@@ -6,9 +6,9 @@
 
 :root.theme-dark {
   --bg-color: #000028;
-  --bg-image: url('/images/cover-image-dark.png');
-  --main-text-color: #F1B2CE;
-  --title-text-color: #DB00FF;
-  --accent-color: #FF0070;
+  --bg-image: url("/images/cover-image-dark.png");
+  --main-text-color: #f1b2ce;
+  --title-text-color: #db00ff;
+  --accent-color: #ff0070;
   --accent-text-color: #000028;
 }

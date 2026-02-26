@@ -5,15 +5,14 @@
 */
 
 :root.theme-light {
-  --bg-color: #FFF1F7;
-  --bg-image: url('/images/cover-image-light.png');
+  --bg-color: #fff1f7;
+  --bg-image: url("/images/cover-image-light.png");
   --main-text-color: #353430;
-  --title-text-color: #FFC2E6;
-  --accent-color: #FF8DCB;
+  --title-text-color: #ffc2e6;
+  --accent-color: #ff8dcb;
   --accent-text-color: #353430;
 }
 
 .theme-light .header__rec {
   display: none;
 }
-
