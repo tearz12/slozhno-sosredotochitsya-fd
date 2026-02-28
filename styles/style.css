@@ -5,7 +5,7 @@
   max-inline-size: 1440px;
   margin: 0 auto;
   min-height: 100vh;
-  font-family: var(--main-font-family, sans-serif);
+  font-family: var(--main-font-family), sans-serif;
   background-image: var(--bg-image);
   background-color: var(--bg-color);
   background-position: center;
@@ -128,7 +128,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: rgba(255, 0, 112, 0.4);
+  border-color: var(--accent-color);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -177,10 +177,15 @@
   gap: 10px;
 }
 
-.card__title,
-.card__subtitle {
+.card__title {
   font-size: 18px;
   font-weight: 700;
+  margin: 0;
+}
+
+.card__subtitle {
+  font-size: 18px;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -194,7 +199,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
-  padding: 2px 10px;
+  padding: 2px 0px;
 }
 
 .gallery {
@@ -228,11 +233,12 @@
 
 @media (width >=760px) {
   .main {
-    padding: 60px 20px;
+    padding: 80px 26px 80px 20px;
+    gap: 82px;
   }
 
   .header {
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
   }
 
   .decorated-zone::before {
@@ -314,6 +320,7 @@
 
   .header__theme-menu {
     padding: 0;
+    margin-left: 23px;
     justify-self: center;
     align-self: start;
   }
