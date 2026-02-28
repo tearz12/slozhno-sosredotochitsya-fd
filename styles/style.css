@@ -231,6 +231,21 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
+.link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+  outline-offset: 2px;
+}
+
 @media (width >=760px) {
   .main {
     padding: 80px 26px 80px 20px;
