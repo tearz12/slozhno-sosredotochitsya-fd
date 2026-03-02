@@ -5,12 +5,15 @@
 */
 
 :root.theme-dark {
-  --bg-color: #000028;
-  --bg-image: url("../images/cover-image-dark.png");
-  --main-text-color: #f1b2ce;
-  --title-text-color: #db00ff;
-  --accent-color: #ff0070;
-  --accent-text-color: #000028;
+    --bg-color: #000028;
+    --bg-image: url("../images/cover-image-dark.png");
+    --main-text-color: #f1b2ce;
+    --main-title-text-color: #db00ff;
+    --section-title-color: #ff0070;
+    --accent-color: #ff0070;
+    --boredr-hover-color: #ff007066;
+    --accent-text-color: #000028;
+    --decorate-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {

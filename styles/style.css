@@ -70,7 +70,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .header__rec {
+  .theme-auto .header__rec {
     display: none;
   }
 }
